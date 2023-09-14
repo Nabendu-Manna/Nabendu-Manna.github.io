@@ -1,607 +1,263 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Google Fots -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <!-- Remixicon Icon -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!-- Remixicon Icon -->
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Main CSS -->
-    <link href="css/main.css" rel="stylesheet">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 
-
-    <!-- <title>Nabendu Manna - resume - {Defolio} </title> -->
-    <title>{Devfolio} - Nabendu Manna</title>
-    <!-- resume -->
+    <title>Portfolio | Nabendu</title>
 </head>
 
 <body>
-
-    <!-- header -->
-    <header class="ds-header" id="site-header">
-        <div class="container">
-            <div class="ds-header-inner">
-                <!-- logo -->
-                <a href="index.html" class="ds-logo">
-                    <span>
-                        N
-                    </span>Nabendu Manna
-                </a>
-                <!-- logo -->
-                <!-- social -->
-                <ul class="ds-social">
-                    <li>
-                        <a href="https://github.com/Nabendu-Manna/" target="_blank">
-                            <i class="ri-github-fill"></i>
-                        </a>
+    <a href="old-v/index.html" class="old">V 1.0.0</a>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Nabendu</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
                     </li>
-                    <li>
-                        <a href="mailto:mannanabendu2000@gmail.com" target="_blank">
-                            <i class="ri-mail-fill"></i>
-                        </a>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
                     </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/nabendu-manna-b32507200/?originalSubdomain=in"
-                            target="_blank">
-                            <i class="ri-linkedin-fill"></i>
-                        </a>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
                     </li>
                 </ul>
-                <!-- social -->
             </div>
-        </div>
-    </header>
-    <!-- header -->
-
-    <!-- banner -->
-    <div class="ds-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                    <figure>
-                        <img src="images/nabendu.png">
-                    </figure>
-                </div>
-                <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                    <section>
-                        <h1>
-                            <span>HI THERE</span>
-                            I’m Nabendu Manna
-                            <br><i>
-                                <b>FULL STACK DEVELOPER</b>
-                            </i>
-                            <br>
-                            <!-- based in India. -->
-                        </h1>
-                        <ul class="ds-numbervalulist">
-                            <li>
-                                <strong>2+</strong>
-                                <span>Experience</span>
-                            </li>
-                            <li>
-                                <strong>10+</strong>
-                                <span>Projects</span>
-                            </li>
-                            <li>
-                                <strong>5</strong>
-                                <span>Happy Clients</span>
-                            </li>
-                        </ul>
-                    </section>
-                </div>
+            <div class="nav-button">
+                <a href="./files/nabendu-manna.resume.pdf" class="btn link-btn" target="_blank">Download CV <i class="uil uil-file-alt"></i></a>
             </div>
-        </div>
-    </div>
-    <!-- banner -->
-
-    <!-- about -->
-    <div class="ds-about-section">
-        <div class="container">
-            <section>
-                <h2 class="ds-heading">About Me</h2>
-                <p>Diligent software engineer with 2+ years experience in commercial application development.
-                    to build innovative and cutting edge business solutions for the impressive suite of clients
-                    within its global reach.</p>
-                <div class="ds-button-sec text-center">
-                    <a href="./files/nabendu-manna.resume.pdf" class="ds-button">Download Resume</a>
-                </div>
-            </section>
-        </div>
-    </div>
-    <!-- about -->
-
-    <!--  Skills -->
-    <div class="ds-skills-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <h2 class="ds-heading">Core Skills</h2>
-                    <ul class="ds-skills-list">
-                        <li>MongoDB</li>
-                        <li>Express JS</li>
-                        <li>Angular</li>
-                        <li>Node JS</li>
-                        <li>Django</li>
-                        <li>Ionic</li>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>PHP</li>
-                    </ul>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <h2 class="ds-heading">Other Skills</h2>
-                    <ul class="ds-skills-list">
-                        <li>API</li>
-                        <li>Web App</li>
-                        <li>Mobile App</li>
-                        <li>Responsive Web Design</li>
-                        <li>RXJS</li>
-                        <li>Redux</li>
-                        <li>NgRx</li>
-                        <li>NgXs</li>
-                    </ul>
-                </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
             </div>
-        </div>
-    </div>
-    <!--  Skills -->
+        </nav>
 
-    <!-- Experience -->
-    <div class="ds-experience-section">
-        <div class="container">
-            <h2 class="ds-heading">Work Experience</h2>
-            <div class="row ds-experience-list">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <section>
-                        <span class="ds-year">2021 Nov. - Present</span>
-                        <h3 class="ds-officename">
-                            <b>e-Celtic</b>
-                            Consulting Services Pvt Ltd
-                        </h3>
-                        <span class="ds-department">Full Stack developer</span>
-                        <p>
-                            Heavy focus on full stack engineering with modules on Mobile app, front and back end
-                            processes.
-                            Maintained maximum uninterrupted flow of business.
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Nabendu Manna</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced software developer with a passion for creating visually stunning
+                            and user-friendly websites and APIs.
                         </p>
-                        <ul>
-                            <li>Engineered modern applications with Django, Angular, ionic <!--, PHP -->.</li>
-                            <li>Built innovative Chat Boat (AI)</li>
-                            <li>Built large Web Services (incl. SOA/SOAP/REST/XML).</li>
-                            <li>Built amazing App using Ionic Framework.</li>
-                            <li>Efficiently deployed and integrated software engineered by team and updated
-                                integration/deployment scripts to improve continuous integration practices.</li>
-                            <!-- <li>Liaised with Product Managers to identify minimum viable product requirements and
-                                clearly defined feature sets into well-scoped user stories for individual team members.
-                            </li> -->
-
-                        </ul>
-                    </section>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <section>
-                        <span class="ds-year">2020 Dec. - 2021 Nov.</span>
-                        <h3 class="ds-officename">CodeHat</h3>
-                        <span class="ds-department">Web developer</span>
-                        <p>Worked closely with senior developer and management team to develop, document, and managing
-                            website using Django, Angular, JavaScript, Laravel.</p>
-                        <ul>
-                            <li>Built and Design innovative Website</li>
-                            <li>Integrate API Services</li>
-                            <li>Built small API Services</li>
-                            <li>Integrate various Payment Getaway</li>
-                        </ul>
-                    </section>
-                </div>
-                <hr>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <section>
-                        <span class="ds-year">2020 Nov. - 2021 Jan.</span>
-                        <h3 class="ds-officename">UpTodd</h3>
-                        <span class="ds-department">Web Development Intern</span>
-                        <p>Learning back-end technology with seniors.</p>
-                        <ul>
-                            <li>Built Website (back end)</li>
-                            <li>Integrate Mail and SMS services</li>
-                        </ul>
-                    </section>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <section>
-                        <span class="ds-year">2019 Jan. - 2020 Nov.</span>
-                        <h3 class="ds-officename">Final Year Projects</h3>
-                        <span class="ds-department">Ecommerce Website</span>
-                        <p>Learning back-end technology with collage seniors and teacher.</p>
-                        <ul>
-                            <li>Data base design</li>
-                            <li>Team work</li>
-                        </ul>
-                    </section>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- Experience -->
-
-    <!--  Work -->
-    <div class="ds-work-section">
-        <div class="container">
-            <h2 class="ds-heading">Latest works</h2>
-            <div class="ds-work-list-section">
-                <!-- 1 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">gibl.in (Nov 2021 - Now)</h3>
-                                <p>
-                                    Web application design and developed using Angular.
-                                    Automated build and deployment (CI/CD).
-                                </p>
-
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Senior Full-stack developer.</li>
-                                    <li>Database design and fragmentation.</li>
-                                    <li>Improve performance and speed.</li>
-                                </ul>
-
-                                <b>Team members:</b>
-                                <ul>
-                                    <li>Senior Full-stack Developer (1)</li>
-                                    <li>Senior Back-end Developer (2)</li>
-                                    <li>Junior Front-end Developer (1)</li>
-                                    <li>Junior Back-end Developer (3)</li>
-                                    <li>Junior ui/ux designer (1)</li>
-                                    <li>QA tester/Product Manager (1)</li>
-                                    <li>Devops Engineer (1)</li>
-                                </ul>
-
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    Angular, Django, PHP, JavaScript, MySQL, Git, CI/CD, Jenkins
-                                </p>
-                                <a href="https://www.gibl.in/" class="ds-button">Details</a>
-                            </section>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                            <figure><img src="./images/gibl.in.png"></figure>
-                        </div>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <a href="./files/nabendu-manna.resume.pdf" class="btn link-btn" target="_blank">Download CV <i class="uil uil-file-alt"></i></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-twitter"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
                     </div>
                 </div>
-
-                <!-- 2 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">GIBL Partner App (Jan 2022 - Now)</h3>
-                                <p>
-                                    Android application design and developed using Ionic Angular.
-                                </p>
-
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Senior Full-stack developer.</li>
-                                    <li>Design system architecture.</li>
-                                    <li>Build and deployment.</li>
-                                    <li>Improve performance and speed.</li>
-                                </ul>
-
-                                <b>Team members</b>
-                                <ul>
-                                    <li>Full-stack Developer (1)</li>
-                                    <li>Back-end Developer (1)</li>
-                                    <li>Junior ui/ux designer (1)</li>
-                                    <li>QA tester (1)</li>
-                                </ul>
-
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    Ionic, Django, PHP, JavaScript, MySQL, Git, Capacitor
-                                </p>
-                                <a href="https://play.google.com/store/apps/details?id=com.ionicframework.giblpartner&hl=en_IN&gl=US&pli=1"
-                                    class="ds-button">Details</a>
-                            </section>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                            <figure><img src="./images/gibl-app.jpg"></figure>
-                        </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./profile-pic.png" alt="avatar">
                     </div>
                 </div>
-
-                <!-- 3 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">Investment (Aug 2022 - Nov 2022)</h3>
-                                <p>
-                                    Web application design and developed using Angular.
-                                </p>
-
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Senior Full-stack developer (Back-end + Front-end).</li>
-                                    <li>Design system architecture.</li>
-                                    <li>Build and deployment.</li>
-                                </ul>
-
-                                <b>Team members</b>
-                                <ul>
-                                    <li>Full-stack Developer (1)</li>
-                                    <li>QA tester (1)</li>
-                                </ul>
-
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    Angular, Rxjs, Django, PHP, JavaScript, MySQL, Git, CI/CD, Jenkins
-                                </p>
-                                <a href="http://uatnew.gibl.in/investment" class="ds-button">Details</a>
-                            </section>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                            <figure><img src="./images/invest.png"></figure>
-                        </div>
-                    </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
                 </div>
 
-                <!-- 4 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">Fire Insurance (Nov 2022 - Feb 2023)</h3>
-                                <p>
-                                    Web application design and developed using Angular.
-                                </p>
-
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Senior Full-stack developer (Back-end + Front-end).</li>
-                                    <li>Design system architecture.</li>
-                                    <li>Build and deployment.</li>
-                                </ul>
-
-                                <b>Team members</b>
-                                <ul>
-                                    <li>Full-stack Developer (1)</li>
-                                    <li>QA tester (1)</li>
-                                </ul>
-
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    Angular, Rxjs, Django, PHP, JavaScript, MySQL, Git, CI/CD, Jenkins
-                                </p>
-                                <a href="http://uatnew.gibl.in/fire-insurance" class="ds-button">Details</a>
-                            </section>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                            <figure><img src="./images/fire.png"></figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 5 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">GIBL CRM APIs (Jan 2022 - 2023)</h3>
-                                <p>
-                                    Rest APIs using Django (Python).
-                                </p>
-
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Back-end developer.</li>
-                                    <li>Develop APIs.</li>
-                                    <li>Build and deployment.</li>
-                                </ul>
-
-                                <b>Team members</b>
-                                <ul>
-                                    <li>Full-stack Developer (1)</li>
-                                    <li>QA tester (1)</li>
-                                </ul>
-
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    Django, Django rest framework, MySQL, Git, CI/CD, Jenkins
-                                </p>
-                                <!-- <a href="http://uatnew.gibl.in/fire-insurance" class="ds-button">Details</a> -->
-                            </section>
-                        </div>
-                        <!-- <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5"> -->
-                        <!-- <figure><img src="./images/fire.png"></figure> -->
-                        <!-- </div> -->
-                    </div>
-                </div>
-
-                <!-- 6 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">Nicebase (Aug 2021 - Oct 2021)</h3>
-                                <p>
-                                    Rest APIs using Django (Python).
-                                    And web application Using Angular.
-                                </p>
-
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Full-stack developer.</li>
-                                    <li>Develop APIs.</li>
-                                    <li>Build and deployment.</li>
-                                </ul>
-
-                                <b>Team members</b>
-                                <ul>
-                                    <li>Full-stack Developer (2)</li>
-                                </ul>
-
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    Angular, Rxjs, Django, MySQL, Git, CI/CD, Jenkins
-                                </p>
-                                <!-- <a href="http://uatnew.gibl.in/fire-insurance" class="ds-button">Details</a> -->
-                            </section>
-                        </div>
-                        <!-- <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5"> -->
-                        <!-- <figure><img src="./images/fire.png"></figure> -->
-                        <!-- </div> -->
-                    </div>
-                </div>
-
-                <!-- 7 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">Optomcare (May 2021 - Aug 2021)</h3>
-                                <p>
-                                    Django rest APIs using Django (Python).
-                                    And Angular web app.
-                                </p>
-
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Junior developer.</li>
-                                </ul>
-
-                                <b>Team members</b>
-                                <ul>
-                                    <li>Full-stack Developer (2)</li>
-                                </ul>
-
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    Angular, Rxjs, Django, MySQL, Git, CI/CD, Jenkins
-                                </p>
-                                <!-- <a href="http://uatnew.gibl.in/fire-insurance" class="ds-button">Details</a> -->
-                            </section>
-                        </div>
-                        <!-- <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5"> -->
-                        <!-- <figure><img src="./images/fire.png"></figure> -->
-                        <!-- </div> -->
-                    </div>
-                </div>
-
-                <!-- 8 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">Explomart (Jan 2021 - May 2021)</h3>
-                                <p>
-                                    Web application design and developed using Angular and PHP.
-                                </p>
-
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Junior developer.</li>
-                                </ul>
-
-                                <b>Team members</b>
-                                <ul>
-                                    <li>Full-stack Developer (2)</li>
-                                </ul>
-
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    Angular, Rxjs, php, MySQL, Git, CI/CD, Jenkins
-                                </p>
-                                <a href="http://explomart.com" class="ds-button">Details</a>
-                            </section>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                            <figure><img src="./images/expo.png"></figure>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 9 -->
-                <div class="ds-work-list">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                            <section>
-                                <h3 class="ds-work-tilte">UpTodd (Oct 2020 - Dec 2020)</h3>
-                                <p>
-                                    Web application using PHP and JS.
-                                </p>
-                                
-                                <b>My roles and responsibilities</b>
-                                <ul>
-                                    <li>Junior developer.</li>
-                                </ul>
-
-                                <b>Team members</b>
-                                <ul>
-                                    <li>Full-stack Developer (2)</li>
-                                </ul>
-                                <p>
-                                    <b>Tools and Technologies - </b>
-                                    PHP, JavaScript, MySQL, Git, CI/CD, Jenkins
-                                </p>
-                                <a href="https://www.uptodd.com" class="ds-button">Details</a>
-                            </section>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                            <figure><img src="./images/up.png"></figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--  Work -->
-
-    <!--  footer -->
-    <footer class="ds-footer text-center">
-        <div class="container">
-            <section>
-                <span>Stay in touch</span>
-                <h4>Ready to talk?</h4>
-                <p>Feel free to contact me</p>
-                <a href="mailto:mannanabendu2000@gmail.com" class="ds-button">Lets Talk</a>
             </section>
-            <span class="ds-copyright">© 2023 Nabendu Manna.</span>
-        </div>
-    </footer>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                                frameworks and libraries,which allows me to implement interactive features.
+                                Additionally, I have experienced working with MEAN stack.
+                            </p>
+                            <div class="about-btn">
+                                <a href="./files/nabendu-manna.resume.pdf" class="btn link-btn" target="_blank">Download CV <i class="uil uil-import"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Angular</span>
+                                <span>React</span>
+                                <span>JavaScript</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>SCSS</span>
+                                <span>Material</span>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Node JS</span>
+                                <span>Express JS</span>
+                                <span>Python</span>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MongoDB</span>
+                                <span>PostgreSQL</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completed</h3>
+                        <label>15+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label>25+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>3+ Years in the field</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: mannanabendu2000@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> +91 76027 06496</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Nabendu Manna .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-twitter"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Nabendu Manna</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-            -->
-    <script src="script/main.js"></script>
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="./script.js"></script>
 </body>
 
 </html>
